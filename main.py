@@ -26,7 +26,7 @@ root = Tk()
 width = 1000
 height = 500
 
-root.title("One For All")
+root.title("Gymnastics Calculator")
 root.minsize(width, height)
 root.geometry("{}x{}".format(width, height))
 
