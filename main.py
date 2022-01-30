@@ -60,7 +60,7 @@ def exits_dropdown(vaultData, entries, entryName):
         exitVar,
         *exitNames,
         command=lambda x: msg_box(
-            "{} into {} worth {} points".format(
+            "{} into {} worth {} points in difficulty".format(
                 entryName, exitVar.get(), exits[exitNames.index(exitVar.get())]["value"]
             )
         )
