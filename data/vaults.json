@@ -1,0 +1,289 @@
+{
+    "entries": [
+      {
+        "entryName": "Front Handspring",
+        "exits": [
+          {
+            "exitName": "Front Handspring",
+            "value": 1.6
+          },
+          {
+            "exitName": "Yamashita",
+            "value": 2
+          },
+          {
+            "exitName": "Yamashita 1/2",
+            "value": 2.4
+          },
+          {
+            "exitName": "Half on, Half off",
+            "value": 2.4
+          },
+          {
+            "exitName": "Full twist off",
+            "value": 2.6
+          },
+          {
+            "exitName": "Yamashita Full",
+            "value": 2.8
+          },
+          {
+            "exitName": "Full twist on",
+            "value": 3.2
+          },
+          {
+            "exitName": "1 1/2 Twist off",
+            "value": 3.2
+          },
+          {
+            "exitName": "2/1 Twist off",
+            "value": 3.6
+          },
+          {
+            "exitName": "Full on, Full off",
+            "value": 3.6
+          },
+          {
+            "exitName": "Front Tuck Salto",
+            "value": 3.6
+          },
+          {
+            "exitName": "Front Pike Salto",
+            "value": 3.8
+          },
+          {
+            "exitName": "Front Tuck Salto with 1/2 Twist",
+            "value": 4
+          },
+          {
+            "exitName": "Cuervo",
+            "value": 4
+          },
+          {
+            "exitName": "Front Pike Salto with 1/2 Twist",
+            "value": 4.2
+          },
+          {
+            "exitName": "Cuervo II",
+            "value": 4.2
+          },
+          {
+            "exitName": "Front Straight Salto (Ewdokimova)",
+            "value": 4.4
+          },
+          {
+            "exitName": "Front Tuck Salto with Full Twist",
+            "value": 4.4
+          },
+          {
+            "exitName": "Front Straight Salto with 1/2 Twist (Wang W. G.)",
+            "value": 4.6
+          },
+          {
+            "exitName": "Pike Salto with Full Twist (Chusovitina)",
+            "value": 4.6
+          },
+          {
+            "exitName": "Front Tuck Salto with 1 1/2 Twist",
+            "value": 4.8
+          },
+          {
+            "exitName": "Front Straight Salto with Full Twist",
+            "value": 5
+          },
+          {
+            "exitName": "Front Pike Salto with 1 1/2 Twist",
+            "value": 5.1
+          },
+          {
+            "exitName": "Front Straight Salto with 1 1/2 Twist (Rudi/Chusovitina)",
+            "value": 5.4
+          },
+          {
+            "exitName": "Front Straight Salto with 2/1 Twist (Yeo)",
+            "value": 5.8
+          },
+          {
+            "exitName": "Double Front Tuck Salto (Produnova)",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "entryName": "Tsukahra",
+        "exits": [
+          {
+            "exitName": "Tucked (Tourischeva)",
+            "value": 3.1
+          },
+          {
+            "exitName": "Piked",
+            "value": 3.4
+          },
+          {
+            "exitName": "Tucked with 1/2 Twist",
+            "value": 3.4
+          },
+          {
+            "exitName": "Tucked with Full Twist (Kim)",
+            "value": 3.7
+          },
+          {
+            "exitName": "Straight Salto",
+            "value": 3.8
+          },
+          {
+            "exitName": "Straight Salto with 1/2 Twist (Phelps)",
+            "value": 4
+          },
+          {
+            "exitName": "Tucked with 1 1/2 Twist",
+            "value": 4
+          },
+          {
+            "exitName": "Straight Salto with Full Twist (Kim II)",
+            "value": 4.4
+          },
+          {
+            "exitName": "Straight Salto with 1 1/2 Twist",
+            "value": 4.8
+          },
+          {
+            "exitName": "Straight Salto with 2/1 Twist (Zamolodchikova)",
+            "value": 5.2
+          }
+        ]
+      },
+      {
+        "entryName": "Yurchenko",
+        "exits": [
+          {
+            "exitName": "Tucked",
+            "value": 2.9
+          },
+          {
+            "exitName": "Piked",
+            "value": 3.1
+          },
+          {
+            "exitName": "Tucked with 1/2 Twist",
+            "value": 3.2
+          },
+          {
+            "exitName": "Tucked with Full Twist",
+            "value": 3.5
+          },
+          {
+            "exitName": "Straight Salto",
+            "value": 3.6
+          },
+          {
+            "exitName": "Straight Salto with 1/2 Twist",
+            "value": 3.8
+          },
+          {
+            "exitName": "Tucked with 1 1/2 Twist",
+            "value": 3.8
+          },
+          {
+            "exitName": "Straight Salto with Full Twist",
+            "value": 4.2
+          },
+          {
+            "exitName": "Straight Salto with 1 1/2 Twist",
+            "value": 4.6
+          },
+          {
+            "exitName": "Straight Salto with 2/1 Twist (Baitova)",
+            "value": 5
+          },
+          {
+            "exitName": "Straight Salto with 2 1/2 Twist (Amanar)",
+            "value": 5.4
+          }
+        ]
+      },
+      {
+        "entryName": "Yurchenko 1/2 on",
+        "exits": [
+          {
+            "exitName": "Half on, Front Tuck Salto",
+            "value": 3.8
+          },
+          {
+            "exitName": "Half on, Front Pike Salto (Omelianchik)",
+            "value": 4
+          },
+          {
+            "exitName": "Half on, Front Tuck Salto with 1/2 Twist (Ivantcheva)",
+            "value": 4.2
+          },
+          {
+            "exitName": "Half on, Front Pike Salto with 1/2 Twist (Podkopayeva)",
+            "value": 4.4
+          },
+          {
+            "exitName": "Half on, Half twist to Back Pike Salto (Khorkina)",
+            "value": 4.4
+          },
+          {
+            "exitName": "Half on, Front Straight Salto",
+            "value": 4.4
+          },
+          {
+            "exitName": "Half on, Front Tuck Salto with Full Twist (Servente)",
+            "value": 4.6
+          },
+          {
+            "exitName": "Half on, Front Straight Salto with 1/2 Twist (Lopez)",
+            "value": 4.8
+          },
+          {
+            "exitName": "Half on, Front Tuck Salto with 1 1/2 Twist (Khorkina)",
+            "value": 5
+          },
+          {
+            "exitName": "Half on, Front Straight Salto with Full Twist",
+            "value": 5.2
+          },
+          {
+            "exitName": "Half on, Front Pike Salto with 1 1/2 Twist",
+            "value": 5.2
+          },
+          {
+            "exitName": "Half on, Front Straight Salto with 1 1/2 Twist",
+            "value": 5.6
+          },
+          {
+            "exitName": "Half on, Front Straight Salto with 2/1 Twist (Biles)",
+            "value": 6
+          }
+        ]
+      },
+      {
+        "entryName": "Yurchenko Full on",
+        "exits": [
+          {
+            "exitName": "Full on, Back Tuck Salto (Luconi)",
+            "value": 3.6
+          },
+          {
+            "exitName": "Full on, Back Pike Salto",
+            "value": 3.8
+          },
+          {
+            "exitName": "Full on, Back Tuck Salto with Full Twist",
+            "value": 4.2
+          },
+          {
+            "exitName": "Full on, Back Straight Salto",
+            "value": 4.2
+          },
+          {
+            "exitName": "Full on, Back Salto with Full Twist",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  }
