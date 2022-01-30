@@ -65,7 +65,7 @@ def exits_dropdown(vaultData, entries, entryName):
             )
         )
     )
-    exitDropdown.grid(column=1, row=2)
+    exitDropdown.grid(column=0, row=3)
 
 
 os.environ["DISPLAY"] = ":0.0"
@@ -97,7 +97,7 @@ vaultData = json.load_vaults(json.vault_path)
 entriesframe = Frame(mainframe)
 entriesframe.grid(column=0, row=2)
 exitsframe = Frame(mainframe)
-exitsframe.grid(column=1, row=2)
+exitsframe.grid(column=0, row=3)
 
 event_button("Vault", entries_dropdown, vaultData)
 event_button("Bars", msg_box)
