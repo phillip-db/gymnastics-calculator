@@ -9,12 +9,17 @@ buttonCount = 0
 def msg_box(text="Hello World!"):
     messagebox.showinfo(message=text)
 
+def clear_skillframe():
+    frames = [frame for subframe in skillframe.winfo_children() for frame in subframe.winfo_children()]
+    for frame in frames:
+        frame.destroy()
+
 
 def event_button(eventName, cmd, *args):
     global buttonCount
 
     eventButton = Button(
-        mainframe,
+        buttonframe,
         text=eventName,
         padx=15,
         pady=15,
@@ -25,10 +30,7 @@ def event_button(eventName, cmd, *args):
 
 
 def entries_dropdown(vaultData):
-    list = entriesframe.grid_slaves() + exitsframe.grid_slaves()
-    for l in list:
-        l.destroy()
-
+    clear_skillframe()
     entries = json.get_entries(vaultData)
 
     entryVar = StringVar(entriesframe)
@@ -45,7 +47,7 @@ def entries_dropdown(vaultData):
 
 
 def exits_dropdown(vaultData, entries, entryName):
-    list = exitsframe.grid_slaves()
+    list = exitsframe.winfo_children()
     for l in list:
         l.destroy()
 
@@ -81,8 +83,14 @@ root.geometry("{}x{}".format(width, height))
 mainframe = Frame(root)
 mainframe.grid(row=1, column=0)
 
+buttonframe = Frame(mainframe)
+buttonframe.grid(row=1, column=0)
+
 titleframe = Frame(root, bg="yellow")
 titleframe.grid(row=0, column=0)
+
+skillframe = Frame(mainframe)
+skillframe.grid(row=2, column=0)
 
 eventLabel = Label(titleframe, text="Select Event")
 eventLabel.grid(column=0, row=0)
@@ -92,11 +100,11 @@ xbias = int(width) / 2 - titleframe.winfo_width() / 2
 titleframe.grid(column=0, row=0, padx=xbias, pady=10)
 
 # Load Vault JSON
-vaultData = json.load_vaults(json.vault_path)
+vaultData = json.load_json(json.vault_path)
 
-entriesframe = Frame(mainframe)
+entriesframe = Frame(skillframe)
 entriesframe.grid(column=0, row=2)
-exitsframe = Frame(mainframe)
+exitsframe = Frame(skillframe)
 exitsframe.grid(column=0, row=3)
 
 event_button("Vault", entries_dropdown, vaultData)
