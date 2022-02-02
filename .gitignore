@@ -1,5 +1,7 @@
 # Manual Ignores
 temp_formatter.py
+*.exe
+*.ico
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+output/
