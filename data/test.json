@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "skillname":"handstand",
+            "value": 1.0
+        },
+        {
+            "skillname":"clear hip",
+            "value": 2.2
+        },
+        {
+            "skillname":"toe hecht",
+            "value": 3.0
+        },
+        {
+            "skillname":"yeager",
+            "value": 4.0
+        },
+        {
+            "skillname":"dismount",
+            "value": 3.3
+        }
+    ]
+}
