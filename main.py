@@ -86,7 +86,7 @@ def create_test_dropdown(data):
     clear_skillframe()
 
     testframe = Frame(skillframe)
-    testframe.grid(column=0, row=0)
+    testframe.grid(column=0, row=0, pady=10)
 
     selectedSkills = Text(skillframe)
     selectedSkills.grid(column=0, row=1)
@@ -100,7 +100,7 @@ def create_test_dropdown(data):
             )
         ),
     )
-    submitButton.grid(column=0, row=2)
+    submitButton.grid(column=0, row=2, pady=20)
 
     test_dropdown(data, selectedSkills)
 
@@ -149,7 +149,7 @@ height = 500
 
 root.title("Gymnastics Calculator")
 root.minsize(width, height)
-root.geometry("{}x{}".format(width, height))
+root.geometry("")
 
 mainframe = Frame(root)
 mainframe.grid(row=1, column=0)
